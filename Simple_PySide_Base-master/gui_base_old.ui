@@ -2356,8 +2356,8 @@ QPushButton:pressed {
                              <string>Xét</string>
                             </property>
                             <property name="icon">
-                             <iconset resource="files.qrc">
-                              <normaloff>:/16x16/icons/16x16/cil-folder-open.png</normaloff>:/16x16/icons/16x16/cil-folder-open.png</iconset>
+                             <iconset>
+                              <normaloff>icons/24x24/cil-check.png</normaloff>icons/24x24/cil-check.png</iconset>
                             </property>
                            </widget>
                           </item>
@@ -2394,8 +2394,8 @@ QPushButton:pressed {
                              <string>Nhập</string>
                             </property>
                             <property name="icon">
-                             <iconset resource="files.qrc">
-                              <normaloff>:/16x16/icons/16x16/cil-folder-open.png</normaloff>:/16x16/icons/16x16/cil-folder-open.png</iconset>
+                             <iconset>
+                              <normaloff>icons/24x24/outline_file_download_white_24dp.png</normaloff>icons/24x24/outline_file_download_white_24dp.png</iconset>
                             </property>
                            </widget>
                           </item>
@@ -2432,8 +2432,8 @@ QPushButton:pressed {
                              <string>Làm Mới</string>
                             </property>
                             <property name="icon">
-                             <iconset resource="files.qrc">
-                              <normaloff>:/16x16/icons/16x16/cil-folder-open.png</normaloff>:/16x16/icons/16x16/cil-folder-open.png</iconset>
+                             <iconset>
+                              <normaloff>icons/24x24/outline_cleaning_services_white_24dp.png</normaloff>icons/24x24/outline_cleaning_services_white_24dp.png</iconset>
                             </property>
                            </widget>
                           </item>
@@ -2470,8 +2470,8 @@ QPushButton:pressed {
                              <string>Xuất</string>
                             </property>
                             <property name="icon">
-                             <iconset resource="files.qrc">
-                              <normaloff>:/16x16/icons/16x16/cil-folder-open.png</normaloff>:/16x16/icons/16x16/cil-folder-open.png</iconset>
+                             <iconset>
+                              <normaloff>icons/24x24/outline_file_upload_white_24dp.png</normaloff>icons/24x24/outline_file_upload_white_24dp.png</iconset>
                             </property>
                            </widget>
                           </item>
@@ -2515,8 +2515,8 @@ QPushButton:pressed {
                              <string>Chi Tiết</string>
                             </property>
                             <property name="icon">
-                             <iconset resource="files.qrc">
-                              <normaloff>:/16x16/icons/16x16/cil-folder-open.png</normaloff>:/16x16/icons/16x16/cil-folder-open.png</iconset>
+                             <iconset>
+                              <normaloff>icons/24x24/outline_biotech_white_24dp.png</normaloff>icons/24x24/outline_biotech_white_24dp.png</iconset>
                             </property>
                            </widget>
                           </item>

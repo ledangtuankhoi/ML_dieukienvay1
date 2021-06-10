@@ -32,6 +32,8 @@ if __name__ == "__main__":
     MainWindow = QtWidgets.QMainWindow()
     ui = gui_base_old_pyuic5.Ui_MainWindow()
     ui.setupUi(MainWindow)
+     
+
 # end main
 
     ui.label_status.setText('ELIGIBLE')
@@ -190,7 +192,8 @@ if __name__ == "__main__":
                 
             # set border cho label
             ui.label_desi.setText('DO CHINH XAC THUAT TOAN: ' +
-            str(logiRe.score(x_test,y_test)*100) + "%" +"\n"+ str(mau_test))
+            str(logiRe.score(x_test,y_test)*100) + "%" 
+            +"\n"+ str(mau_test.values.tolist()))
             ui.label_desi.setStyleSheet("border: 1px solid black;")
         else:
             ui.label_status.setText('')
@@ -207,8 +210,7 @@ if __name__ == "__main__":
         ui.txt_sotienvay.setText('')
         ui.txt_tgvay.setText('')
         ui.txt_nguoiphuthuoc.setText('')
-        
-
+    
     ui.btn_submit.clicked.connect(click_submit)
     ui.btn_reset.clicked.connect(click_reset)
 

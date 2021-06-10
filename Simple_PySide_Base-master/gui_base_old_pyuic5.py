@@ -1099,7 +1099,7 @@ class Ui_MainWindow(object):
 "    border: 2px solid rgb(43, 50, 61);\n"
 "}")
         icon3 = QtGui.QIcon()
-        icon3.addPixmap(QtGui.QPixmap(":/16x16/icons/16x16/cil-folder-open.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon3.addPixmap(QtGui.QPixmap("icons/24x24/cil-check.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.btn_submit.setIcon(icon3)
         self.btn_submit.setObjectName("btn_submit")
         self.gridLayout.addWidget(self.btn_submit, 1, 0, 1, 1)
@@ -1122,7 +1122,9 @@ class Ui_MainWindow(object):
 "    background-color: rgb(35, 40, 49);\n"
 "    border: 2px solid rgb(43, 50, 61);\n"
 "}")
-        self.btn_import.setIcon(icon3)
+        icon4 = QtGui.QIcon()
+        icon4.addPixmap(QtGui.QPixmap("icons/24x24/outline_file_download_white_24dp.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.btn_import.setIcon(icon4)
         self.btn_import.setObjectName("btn_import")
         self.gridLayout.addWidget(self.btn_import, 4, 0, 1, 1)
         self.btn_reset = QtWidgets.QPushButton(self.page_settings)
@@ -1144,7 +1146,9 @@ class Ui_MainWindow(object):
 "    background-color: rgb(35, 40, 49);\n"
 "    border: 2px solid rgb(43, 50, 61);\n"
 "}")
-        self.btn_reset.setIcon(icon3)
+        icon5 = QtGui.QIcon()
+        icon5.addPixmap(QtGui.QPixmap("icons/24x24/outline_cleaning_services_white_24dp.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.btn_reset.setIcon(icon5)
         self.btn_reset.setObjectName("btn_reset")
         self.gridLayout.addWidget(self.btn_reset, 2, 0, 1, 1)
         self.btn_export = QtWidgets.QPushButton(self.page_settings)
@@ -1166,7 +1170,9 @@ class Ui_MainWindow(object):
 "    background-color: rgb(35, 40, 49);\n"
 "    border: 2px solid rgb(43, 50, 61);\n"
 "}")
-        self.btn_export.setIcon(icon3)
+        icon6 = QtGui.QIcon()
+        icon6.addPixmap(QtGui.QPixmap("icons/24x24/outline_file_upload_white_24dp.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.btn_export.setIcon(icon6)
         self.btn_export.setObjectName("btn_export")
         self.gridLayout.addWidget(self.btn_export, 5, 0, 1, 1)
         self.label_15 = QtWidgets.QLabel(self.page_settings)
@@ -1192,7 +1198,9 @@ class Ui_MainWindow(object):
 "    background-color: rgb(35, 40, 49);\n"
 "    border: 2px solid rgb(43, 50, 61);\n"
 "}")
-        self.btn_about.setIcon(icon3)
+        icon7 = QtGui.QIcon()
+        icon7.addPixmap(QtGui.QPixmap("icons/24x24/outline_biotech_white_24dp.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.btn_about.setIcon(icon7)
         self.btn_about.setObjectName("btn_about")
         self.gridLayout.addWidget(self.btn_about, 3, 0, 1, 1)
         self.horizontalLayout_11.addLayout(self.gridLayout)
