@@ -1,0 +1,3 @@
+httpswww.kaggle.companambybank-loan-status-datasetdataselect=credit_train.csv
+
+https://www.kaggle.com/panamby/bank-loan-status-dataset/

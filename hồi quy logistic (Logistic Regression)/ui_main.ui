@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>877</width>
+    <height>485</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="horizontalLayoutWidget_7">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>871</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_24">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_37">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_38">
+         <item>
+          <layout class="QGridLayout" name="gridLayout_17">
+           <item row="3" column="0">
+            <widget class="QPushButton" name="pushButton_13">
+             <property name="text">
+              <string>IMPORT</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QPushButton" name="pushButton_14">
+             <property name="text">
+              <string>PushButton</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QPushButton" name="pushButton_15">
+             <property name="text">
+              <string>RULUES</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QPushButton" name="pushButton_16">
+             <property name="text">
+              <string>HOME</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_46">
+             <property name="text">
+              <string>QAZXSW</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="0">
+            <widget class="QLabel" name="label_47">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_8">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_12">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_25">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_26">
+             <item>
+              <layout class="QGridLayout" name="gridLayout_18">
+               <item row="1" column="1">
+                <widget class="QLineEdit" name="txt_thunhap">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="cursorPosition">
+                  <number>0</number>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="1">
+                <widget class="QLineEdit" name="txt_nguoiphuthuoc"/>
+               </item>
+               <item row="8" column="1">
+                <spacer name="horizontalSpacer_23">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_50">
+                 <property name="text">
+                  <string>thu nhập</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QLabel" name="label_51">
+                 <property name="text">
+                  <string>người phụ thuộc</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="7" column="0">
+                <widget class="QLabel" name="label_49">
+                 <property name="text">
+                  <string>đã vay tiền trước đây</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="6" column="1">
+                <widget class="QLineEdit" name="txt_tgvay"/>
+               </item>
+               <item row="6" column="0">
+                <widget class="QLabel" name="label_53">
+                 <property name="text">
+                  <string>thời hạn vay</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="1">
+                <widget class="QLineEdit" name="txt_thunhapnguoithan"/>
+               </item>
+               <item row="4" column="0">
+                <widget class="QLabel" name="label_52">
+                 <property name="text">
+                  <string>thu nhập của người thân</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="0">
+                <widget class="QLabel" name="label_54">
+                 <property name="text">
+                  <string>số tiền vay</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="1">
+                <widget class="QLineEdit" name="txt_sotienvay"/>
+               </item>
+               <item row="7" column="1">
+                <widget class="QComboBox" name="cob_lichsuvay"/>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QGridLayout" name="gridLayout_19">
+             <item row="0" column="0">
+              <spacer name="horizontalSpacer_24">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_27">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_39"/>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_40">
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_41">
+                 <item>
+                  <layout class="QGridLayout" name="gridLayout_20">
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_55">
+                     <property name="text">
+                      <string>tự kinh doanh</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="1">
+                    <widget class="QComboBox" name="cob_tukinhdoanh"/>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QComboBox" name="cob_honnhan"/>
+                   </item>
+                   <item row="4" column="1">
+                    <widget class="QComboBox" name="cob_khuvuc"/>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QComboBox" name="cob_hocvan"/>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_56">
+                     <property name="text">
+                      <string>giới tình</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="0">
+                    <widget class="QLabel" name="label_57">
+                     <property name="text">
+                      <string>khu vực sinh sống</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="5" column="1">
+                    <spacer name="horizontalSpacer_26">
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>40</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_58">
+                     <property name="text">
+                      <string>tình trạng hôn nhân</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_59">
+                     <property name="text">
+                      <string>trình độ học vấn</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QComboBox" name="cob_gioitinh"/>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_42"/>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_18">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_28">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_29">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_43">
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_9">
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout_15">
+                   <item>
+                    <layout class="QGridLayout" name="gridLayout_21">
+                     <item row="1" column="0">
+                      <widget class="QLabel" name="label_48">
+                       <property name="text">
+                        <string>TextLabel</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="0" column="1">
+                      <spacer name="horizontalSpacer_27">
+                       <property name="orientation">
+                        <enum>Qt::Horizontal</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>40</width>
+                         <height>20</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                     <item row="1" column="1">
+                      <widget class="QLabel" name="label_status">
+                       <property name="font">
+                        <font>
+                         <pointsize>20</pointsize>
+                        </font>
+                       </property>
+                       <property name="text">
+                        <string/>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_14">
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout_47">
+                   <item>
+                    <layout class="QGridLayout" name="gridLayout_22">
+                     <item row="0" column="0">
+                      <widget class="QLabel" name="label_61">
+                       <property name="text">
+                        <string>TextLabel</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="0" column="1">
+                      <layout class="QHBoxLayout" name="horizontalLayout_4">
+                       <item>
+                        <layout class="QGridLayout" name="gridLayout_23">
+                         <item row="1" column="0">
+                          <widget class="QLabel" name="label_desi">
+                           <property name="text">
+                            <string/>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="0" column="0">
+                          <spacer name="horizontalSpacer_28">
+                           <property name="orientation">
+                            <enum>Qt::Horizontal</enum>
+                           </property>
+                           <property name="sizeHint" stdset="0">
+                            <size>
+                             <width>40</width>
+                             <height>20</height>
+                            </size>
+                           </property>
+                          </spacer>
+                         </item>
+                        </layout>
+                       </item>
+                      </layout>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <spacer name="horizontalSpacer_25">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>40</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_30">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout">
+               <item>
+                <widget class="QPushButton" name="btn_submit">
+                 <property name="text">
+                  <string>Submit</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="btn_reset">
+                 <property name="text">
+                  <string>Reset</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>877</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
